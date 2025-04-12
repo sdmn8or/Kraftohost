@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: auto;
+}
+body {
+    overflow-x: hidden;
+}
+/* nav start */
+.menu-bg{
+    background-color: transparent !important;
+}
+.menu-bg ul li a{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    color: white !important;
+    font-size: 18px;
+    margin-top: 32.04px !important;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+.menu-bg ul{
+    padding-left: 300px;
+}
+.menu-bg ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: rgba(255, 150, 0, 1) !important;
+}
+.navbar-nav li:last-child a {
+    font-weight: bold;
+    background-color: rgba(255, 150, 0, 1);
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.navbar-nav li:last-child a:hover{
+    color: rgba(255, 150, 0, 1) ;
+    background-color: white;
+}
+
+.menu-bg .navbar-nav {
+    align-items: center;
+}
+.menu-bg img{
+    margin-left: 60px;
+    margin-top: 14px;
+    margin-right: 474px;
+}
+nav{
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand img{
+    width: 216px;
+    height: 64px;
+}
+/* nav end */
+/* banner start */
+
+#hero {
+    position: relative;
+    width: 100%;
+    min-height: 554px;
+    overflow: hidden;
+}
+
+
+.bandiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/Banner.png);
+    /* background-size: cover;
+    background-position: center; */
+    z-index: 2;
+    pointer-events: none;
+}
+
+nav.menu-bg {
+    position: relative;
+    z-index: 3;
+}
+
+#gfx {
+    background: transparent;
+    height: 554px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    text-align: center;
+}
+
+
+.bantxt h1{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 72px;
+    margin: 138px 302px 257.66px 301px;
+    text-align: center;
+}
+#gfx{
+    position: relative;
+    z-index: 3;
+    margin-top: 16px;
+    height: 554px;
+}
+.gfxg img{
+    margin-top: 161px;
+}
+.gfxg h3{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    text-align: center; 
+    width: 838px;
+    margin: 0 auto;
+}
+.gfxg a{
+    font-weight: bold;
+    background-color: rgba(255, 150, 0, 1);
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+    
+
+}
+.gfxg a:hover{
+    color: rgba(255, 150, 0, 1) ;
+    background-color: white;
+}
+/* banner end */
+/* plan start */
+#plan{
+    background-color: black;
+    position: relative; 
+    z-index: 3;
+}
+.plan-head h1{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    text-align: center; 
+    width: 838px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.plan-head p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    text-align: center; 
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 550px;
+    color: rgb(129, 131, 133);
+}
+.plan-box img{
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.plan-box ul li{
+   padding-left: 5px;
+   list-style: disc;
+   padding-left:5px;
+   color: white;
+}
+.jjh a{
+    font-weight: bold;
+    background-color: rgba(255, 150, 0, 1);
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.jjh a:hover{
+    color: rgba(255, 150, 0, 1) ;
+    background-color: white;
+}
+.jjh{
+    margin-bottom: 100px;
+    padding-top: 50px;
+    margin-left: 300px;
+}
+/* plan end */
+/* footer start */
+#footer{
+    background-color: rgba(255, 150, 0, 1) ;
+    height: 150px;
+    position: relative;
+    z-index: 3;
+}
+.fft h2{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    /* text-align: center;  */
+    /* margin: 0 auto; */
+    padding-top: 75px;
+    padding-left: 230px;
+
+}
+/* footer end */
