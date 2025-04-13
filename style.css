@@ -228,3 +228,234 @@ nav.menu-bg {
 
 }
 /* footer end */
+/* Extra Small Devices (Phones <576px) */
+@media (max-width: 575.98px) {
+    .navbar-brand img {
+      width: 130px;
+    }
+  
+    .navbar-nav {
+      align-items: flex-start !important;
+    }
+  
+    .navbar-toggler {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      z-index: 999;
+    }
+  
+    .bantxt h1 {
+      font-size: 30px;
+      margin: 220px 10px 60px 10px;
+    }
+  
+    .gfxg h3 {
+      font-size: 16px;
+      width: 95%;
+    }
+  
+    .plan-head h1 {
+      font-size: 24px;
+      width: 95%;
+    }
+  
+    .plan-head p {
+      font-size: 14px;
+      width: 90%;
+    }
+  
+    .plan-box ul li {
+      font-size: 14px;
+    }
+  
+    .plan-box {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .gfxg a,
+    .jjh a {
+      padding: 12px 25px !important;
+      font-size: 14px;
+    }
+  
+    .fft h2 {
+      font-size: 14px;
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+  
+  /* Small Devices (≥576px and <768px) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand img {
+      width: 150px;
+    }
+  
+    .navbar-toggler {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      z-index: 999;
+    }
+  
+    .bantxt h1 {
+      font-size: 43px;
+      margin: 200px 15px 70px 15px;
+    }
+  
+    .gfxg h3 {
+      font-size: 18px;
+      width: 90%;
+    }
+  
+    .plan-head h1 {
+      font-size: 28px;
+      width: 90%;
+    }
+  
+    .plan-head p {
+      font-size: 15px;
+      width: 85%;
+    }
+  
+    .plan-box ul li {
+      font-size: 14px;
+    }
+  
+    .gfxg a,
+    .jjh a {
+      padding: 14px 30px !important;
+      font-size: 15px;
+    }
+  
+    .fft h2 {
+      font-size: 15px;
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+  
+  /* Medium Devices (≥768px and <992px) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand img {
+      width: 180px;
+    }
+  
+    .menu-bg ul {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .menu-bg img {
+      margin: 10px auto;
+      display: block;
+    }
+  
+    .navbar-toggler {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      z-index: 999;
+    }
+  
+    .bantxt h1 {
+      font-size: 52px;
+      margin: 180px 20px 80px 20px;
+    }
+  
+    .gfxg h3 {
+      font-size: 20px;
+      width: 90%;
+    }
+  
+    .plan-head h1 {
+      font-size: 32px;
+      width: 90%;
+    }
+  
+    .plan-head p {
+      font-size: 16px;
+      width: 85%;
+    }
+  
+    .gfxg a,
+    .jjh a {
+      padding: 16px 35px !important;
+      font-size: 16px;
+    }
+  
+    .jjh {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .fft h2 {
+      font-size: 16px;
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+  
+  /* Large Devices (≥992px and <1200px) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand img {
+      width: 200px;
+    }
+  
+    .bantxt h1 {
+      font-size: 62px;
+      margin: 160px 40px 80px 40px;
+    }
+  
+    .gfxg h3 {
+      font-size: 24px;
+      width: 80%;
+    }
+  
+    .plan-head h1 {
+      font-size: 36px;
+      width: 85%;
+    }
+  
+    .plan-head p {
+      font-size: 16px;
+      width: 80%;
+    }
+  
+    .gfxg a,
+    .jjh a {
+      padding: 18px 40px !important;
+      font-size: 17px;
+    }
+  }
+  
+  /* Extra Large Devices (≥1200px) */
+  @media (min-width: 1200px) {
+    .bantxt h1 {
+      font-size: 63px;
+      margin: 138px 302px 257.66px 301px;
+    }
+  
+    .gfxg h3 {
+      font-size: 30px;
+      width: 838px;
+    }
+  
+    .plan-head h1 {
+      font-size: 50px;
+      width: 838px;
+    }
+  
+    .plan-head p {
+      font-size: 18px;
+      width: 550px;
+    }
+  }
+  /* extra */
+  @media (min-width: 1205px) and (max-width: 1250px){
+    .bantxt h1 {
+        font-size: 55px;
+      }
+  }
