@@ -207,7 +207,6 @@ nav.menu-bg {
 .jjh{
     margin-bottom: 100px;
     padding-top: 50px;
-    margin-left: 300px;
 }
 /* plan end */
 /* footer start */
@@ -217,16 +216,13 @@ nav.menu-bg {
     position: relative;
     z-index: 3;
 }
-.fft h2{
+.fft h2 {
     color: white;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 18px;
-    /* text-align: center;  */
-    /* margin: 0 auto; */
     padding-top: 75px;
-    padding-left: 230px;
-
-}
+    text-align: center;
+  }  
 /* footer end */
 /* Extra Small Devices (Phones <576px) */
 @media (max-width: 575.98px) {
